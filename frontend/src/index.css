@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 225, 255, 0.952);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 68%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #007bff;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+}
+
+header div a {
+  color: white;
+}
+
+.row {
+  display: flex;
+}
+
+.row.s-between {
+  justify-content: space-between;
+}
+
+.w-50percent {
+  width: 50%;
+}
+
+.w-25percent {
+  width: 25%;
+}
+
+/*
+.main-home-link {
+
+}
+*/
+/* App.js css's */
+
+.main-navbar-links {
+  margin-right: auto;
+}
