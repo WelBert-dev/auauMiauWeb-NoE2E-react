@@ -22,7 +22,20 @@ header {
   font-size: 1rem;
 }
 
+header h1 {
+  font-size: 1.5rem;
+}
+
 header div a {
+  color: white;
+}
+
+header ul li {
+  margin-right: 2rem;
+  color: #ffee00;
+} 
+
+header ul li a {
   color: white;
 }
 
@@ -34,12 +47,8 @@ header div a {
   justify-content: space-between;
 }
 
-.w-50percent {
-  width: 50%;
-}
-
-.w-25percent {
-  width: 25%;
+.align-items-center {
+  align-items: center;
 }
 
 /*
@@ -49,6 +58,3 @@ header div a {
 */
 /* App.js css's */
 
-.main-navbar-links {
-  margin-right: auto;
-}
