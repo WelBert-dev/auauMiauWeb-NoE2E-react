@@ -9,7 +9,7 @@ function App() {
             <div className="main-home-link">
                 <a className="brand" href="/"><h1>Home</h1></a>
             </div>
-            <ul className="main-navbar-links row s-between">
+            <ul className="main-navbar-links row s-between"> 
                 <li><a href="/cliente">Cliente</a></li>
                 <li><a href="/animal">Animal</a></li>
                 <li><a href="/veterinario">Veterinário</a></li>
